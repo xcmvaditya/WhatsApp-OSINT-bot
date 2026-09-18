@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: veronica-osint-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: API_URL
+        value: https://leak-api-databreach-adibhai.vercel.app/api/number
+      - key: API_KEY
+        value: ""
+      - key: YOUTUBE_URL
+        value: https://youtube.com/@geniushacker29
+      - key: SESSION_DIR
+        value: ./session
