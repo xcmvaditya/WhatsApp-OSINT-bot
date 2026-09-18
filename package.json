@@ -1,0 +1,21 @@
+{
+  "name": "veronica-osint-whatsapp",
+  "version": "1.0.0",
+  "description": "VERONICA OSINT WhatsApp Bot — Developed by Adibhai",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "pino": "^8.17.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Adibhai",
+  "license": "MIT"
+}
